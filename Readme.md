@@ -9,4 +9,10 @@ Se desejar você pode acessar as informações do desafio aqui:
 [Desafio LaunchBase - Construindo o Foodfy](https://github.com/rocketseat-education/bootcamp-launchbase-desafios-02/blob/master/desafios/02-foodfy.md)
 <br>
 
+### O projeto até agora
+
+<p align="center">
+    <img src="github/page-foodfy.gif">
+</p>
+
 #### Até logo 💻👋
