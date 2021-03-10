@@ -1,9 +1,5 @@
 @import "https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap";
 
-.borda {
-    border: 1px solid red;
-}
-
 :root {
     --color-black: #111;
     --color-light-black: #888;
@@ -19,7 +15,6 @@
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0 auto;
-    /* width: 960px; */
 }
 
 header {
@@ -117,10 +112,6 @@ header {
     cursor: pointer;
     transition: filter 200ms;
 }
-
-/* .accesses img:hover {
-    filter: brightness(50%);
-} */
 
 .card h4 {
     font-weight: 400;
@@ -225,11 +216,6 @@ span {
 .close-modal a:hover {
     color: var(--color-black);
 }
-
-
-
-
-
 
 /* ##### FOOTER #####*/
 footer {
