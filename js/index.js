@@ -17,15 +17,13 @@ for(let card of cards) {
 
         modalOverlay.querySelector("img").src = `../assets/${imgId}`
 
-        /* modal info */
+        /* modal card */
         const cardH4 = card.querySelector("h4").textContent 
         const cardP = card.querySelector("p").textContent 
-
+        
+        /* modal info */
         modalH3.innerHTML = cardH4
         modalSpan.innerHTML = cardP
-
-        modalContent.appendChild(modalH3)
-        modalContent.appendChild(modalSpan)
         
     })
 
