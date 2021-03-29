@@ -4,7 +4,7 @@ const cards = document.querySelectorAll(".card");
 
 // modal info
 const modalH3 = document.querySelector("h3");
-const modalSpan = document.querySelector("span");
+const modalSpan = document.querySelector(".name-chef");
 
 for(let card of cards) {
     card.addEventListener("click", function() {
@@ -40,4 +40,12 @@ function myfunction() {
     } else {
         myNav.className = "nav";
     };
+
+    const myBanner = document.getElementById("myBanner");
+
+    if(myBanner.className == "banner-content") {
+        myBanner.className = myBanner.className + " nav-top";
+    } else {
+        myBanner.className = "banner-content";
+    }
 };
